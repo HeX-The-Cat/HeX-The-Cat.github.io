@@ -1,9 +1,21 @@
+import Equipment from "./components/Equipment";
+import GearsJson from "./components/Gear.json"
+
 const Gear = () => {
     return (
         <div className=" h-auto ">
-            <h1 className=" flex justify-center">
-                Here will be what I use:
-            </h1>
+            {GearsJson.map((item, index) => {
+                return(
+                    <Equipment 
+                        index={item.index}
+                        key={item.gear + index}
+                        gear={item.gear}
+                        picture={item.picture}
+                        text={item.text}
+                        background={item.background}
+                    />
+                )
+            })}
         </div>
     );
 }
