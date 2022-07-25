@@ -1,5 +1,5 @@
 {
-  "homepage" : "https://hex-the-cat.github.io/",
+  "homepage": "https://hex-the-cat.github.io/",
   "name": "project-auros",
   "version": "0.1.0",
   "private": true,
@@ -39,6 +39,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0"
+    "gh-pages": "^4.0.0",
+    "tailwindcss": "^3.1.6"
   }
 }
