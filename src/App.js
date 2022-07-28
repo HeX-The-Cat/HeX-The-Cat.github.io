@@ -4,7 +4,7 @@ import Layout from './pages/Layout';
 import Home from './pages/Home';
 import Gear from './pages/Gear';
 import Games from './pages/Games';
-import PopUp from "./src_components/PopUp";
+import PopUp from "./popup_components/PopUp";
 
 function App() {
   const[buttonPopUp, setButtonPopUp] = useState(true);

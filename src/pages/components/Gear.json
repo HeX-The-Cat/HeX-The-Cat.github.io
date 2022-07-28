@@ -1,12 +1,18 @@
 [
     {
-        "gear": "Computer",
+        "gear": "Main PC",
         "picture": "",
         "text": "",
         "background": ""
     },
     {
         "gear": "Cintiq 16\"",
+        "picture": "",
+        "text": "",
+        "background": ""
+    },
+    {
+        "gear": "Ye olde \"server\" PC",
         "picture": "",
         "text": "",
         "background": ""

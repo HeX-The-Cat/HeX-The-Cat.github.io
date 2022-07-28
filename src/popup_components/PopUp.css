@@ -16,11 +16,14 @@
     padding: 32px;
     width: 100%;
     max-width: 640px;
-    background-color: white;
+    background-color: gray;
 }
 
 .popup-inner .close-btn {
     position: absolute;
-    top: 16px;
+    bottom: 16px;
     right: 16px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
 }
