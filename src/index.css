@@ -4,4 +4,16 @@
 
 body {
     font-size: 20px;
-  }
+}
+
+@media (min-width: 1000px){
+    .pageWidth {
+        width: 1000px
+    }
+}
+
+@media (max-width: 999px){
+    .pageWidth{
+        width: 100%
+    }
+}

@@ -1,32 +1,32 @@
 [
     {
         "game": "Azur Lane",
-        "video": "",
-        "text": "",
+        "video": "https://www.youtube.com/embed/gy1B3agGNxw",
+        "text": "Azur Lane is a side-scrolling shoot 'em up video game created by Chinese developers Shanghai Manjuu and Xiamen Yongshi, released in 2017 for the iOS and Android operating systems.",
         "background": ""
     },
     {
         "game": "Apex Legends",
-        "video": "",
-        "text": "",
+        "video": "https://www.youtube.com/embed/gy1B3agGNxw",
+        "text": "Apex Legends is a free-to-play battle royale-hero shooter game developed by Respawn Entertainment and published by Electronic Arts.",
         "background": ""
     },
     {
         "game": "World of Warships",
-        "video": "",
-        "text": "",
+        "video": "https://www.youtube.com/embed/gy1B3agGNxw",
+        "text": "World of Warships is a free-to-play naval warfare-themed multiplayer online game produced and published by Wargaming and developed by its subsidiary Lesta Studio, following the earlier games World of Tanks and World of Warplanes",
         "background": ""
     },
     {
         "game": "Escape from Tarkov",
-        "video": "",
-        "text": "",
+        "video": "https://www.youtube.com/embed/gy1B3agGNxw",
+        "text": "Escape from Tarkov is a multiplayer first-person shooter video game in development by Battlestate Games for Windows. The game is set in the fictional Norvinsk region, where a war is taking place between two private military companies.",
         "background": ""
     },
     {
         "game": "Beat Saber",
-        "video": "",
-        "text": "",
+        "video": "https://www.youtube.com/embed/gy1B3agGNxw",
+        "text": "Beat Saber is a virtual reality rhythm game developed and published by Czech game developer Beat Games. It takes place in a surrealistic neon environment and features the player slicing blocks representing musical beats with a pair of contrasting-colored sabers.",
         "background": ""
     }
 ]

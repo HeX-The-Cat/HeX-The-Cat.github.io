@@ -4,8 +4,8 @@ import NavBar from "./components/NavBar";
 
 const Layout = () => {
   return (
-    <div>
-        <div>
+    <div className=" flex justify-center h-screen">
+        <div className=" pageWidth">
             <div>
               <NavBar />
             </div>
