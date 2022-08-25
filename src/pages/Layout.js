@@ -6,11 +6,11 @@ const Layout = () => {
   return (
     <div className=" flex justify-center h-screen">
         <div className=" pageWidth">
-            <div>
+            <div className="NavNoScrollBar">
               <NavBar />
             </div>
 
-            <div>
+            <div className="ContentNoScrollBar">
               <Outlet />
             </div>
         </div>

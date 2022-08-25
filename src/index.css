@@ -4,16 +4,60 @@
 
 body {
     font-size: 20px;
+    background-color: #201c1c;
 }
 
-@media (min-width: 1000px){
+h1 {
+    color: white;
+    font-size: 30px;
+}
+
+p {
+    color: white;
+}
+
+li {
+    color: white;
+}
+
+.GearImage{
+    max-height: 600px;
+    max-width: 600px;
+}
+
+.GameImage{
+    min-width: 560px;
+}
+
+@media (min-width: 1400px){
     .pageWidth {
-        width: 1000px
+        width: 1400px
     }
 }
 
-@media (max-width: 999px){
+@media (max-width: 1399px){
     .pageWidth{
         width: 100%
     }
+}
+
+.NavNoScrollBar{
+    height: 7%;
+}
+
+.ContentNoScrollBar {
+    width: 100%;
+    height: 93%;
+    overflow-y: scroll; /* Add the ability to scroll */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.ContentNoScrollBar::-webkit-scrollbar {
+    display: none;
+}
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+.ContentNoScrollBar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
 }
