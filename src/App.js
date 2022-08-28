@@ -4,6 +4,8 @@ import Layout from './pages/Layout';
 import Home from './pages/Home';
 import Gear from './pages/Gear';
 import Games from './pages/Games';
+import NoPage from "./pages/NoPage";
+import Trello from "./pages/Trello";
 import PopUp from "./popup_components/PopUp";
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
             <Route index element={<Home />} />
             <Route path="Gear" element={<Gear />} />
             <Route path="Games" element={<Games />} />
+            <Route path="Trello" element={<Trello />} />
+            <Route path="*" element={<NoPage />} />
           </Route>
         </Routes>
       </BrowserRouter>

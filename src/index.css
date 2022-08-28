@@ -29,16 +29,21 @@ li {
     min-width: 560px;
 }
 
-@media (min-width: 1400px){
+@media (min-width: 1500px){
     .pageWidth {
-        width: 1400px
+        width: 1500px
     }
 }
 
-@media (max-width: 1399px){
+@media (max-width: 1499px){
     .pageWidth{
         width: 100%
     }
+}
+
+.Trello_iframe iframe {
+    width:100%;
+    height:100%;
 }
 
 .NavNoScrollBar{

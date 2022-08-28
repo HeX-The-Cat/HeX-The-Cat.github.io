@@ -14,7 +14,7 @@ const Game = ({game, video, text, image, background, index}) => {
                             height="480"
                             src={video}
                             title="YouTube video player"
-                            allowfullscreen />
+                            allowFullScreen />
                         }  
 
                         {image.length > 0 &&
