@@ -20,6 +20,10 @@ li {
     color: white;
 }
 
+.NavBarTransparency{
+    background-color: (#201c1c 0.5);
+}
+
 .GearImage{
     max-height: 600px;
     max-width: 600px;
@@ -29,30 +33,28 @@ li {
     min-width: 560px;
 }
 
-@media (min-width: 1500px){
+@media (min-width: 1410px){
     .pageWidth {
-        width: 1500px
+        width: 1410px
     }
 }
 
-@media (max-width: 1499px){
+@media (max-width: 1409px){
     .pageWidth{
         width: 100%
     }
-}
-
-.Trello_iframe iframe {
-    width:100%;
-    height:100%;
 }
 
 .NavNoScrollBar{
     height: 7%;
 }
 
-.ContentNoScrollBar {
-    width: 100%;
+.ContentHeight{
     height: 93%;
+}
+
+
+.ContentNoScrollBar {
     overflow-y: scroll; /* Add the ability to scroll */
 }
 

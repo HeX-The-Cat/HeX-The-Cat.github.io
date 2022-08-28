@@ -5,15 +5,16 @@ import NavBar from "./components/NavBar";
 const Layout = () => {
   return (
     <div className=" flex justify-center h-screen">
-        <div className=" pageWidth">
-            <div className="NavNoScrollBar">
-              <NavBar />
-            </div>
-
-            <div className="ContentNoScrollBar">
-              <Outlet />
-            </div>
+      
+      <div className=" pageWidth">
+        <div className="NavNoScrollBar">
+          <NavBar />
         </div>
+
+        <div className="ContentHeight ContentNoScrollBar">
+          <Outlet />
+        </div>
+      </div>
     </div>
   );
 };
