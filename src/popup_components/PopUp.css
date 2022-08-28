@@ -11,12 +11,21 @@
     align-items: center;
 }
 
+.button{
+    color: white;
+    text-align: center;
+}
+
+.paddingUpwards{
+    padding-top: 5px;
+}
+
 .popup-inner {
     position: relative;
-    padding: 32px;
+    padding: 16px;
     width: 100%;
     max-width: 640px;
-    background-color: gray;
+    background-color: rgb(32, 28, 28);
 }
 
 .popup-inner .close-btn {

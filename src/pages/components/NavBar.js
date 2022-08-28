@@ -1,8 +1,9 @@
 import { NavLink } from "react-router-dom";
+import '../../index.css'
 
 const NavBar = () => {
     return (
-      <div className=" NavBarTransparency p-3">
+      <div className=" p-3">
         <nav>
             <ul className=" flex justify-center">
                 <li className=" py-1 px-2">
