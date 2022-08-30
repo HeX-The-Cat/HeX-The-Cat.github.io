@@ -11,7 +11,7 @@ const Home = () => {
                 
             </p>
             <p className=" flex justify-center">
-                Also created and helping to maintain website for&nbsp; <u><a href="https://brokencodegames.github.io/" target="_blank">Broken Code Games</a></u>.
+                Also created and helping to maintain website for&nbsp; <u><a href="https://brokencodegames.github.io/" target="_blank" rel="noopener noreferrer">Broken Code Games</a></u>.
             </p>
         </div>
     );

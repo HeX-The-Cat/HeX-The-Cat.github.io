@@ -1,0 +1,15 @@
+[
+    {
+        "websitegroup" : "Azur Lane",
+        "websitelinks" : [
+            {
+                "website" : "Azur Lane Wiki",
+                "websiteaddress" : "https://azurlane.koumakan.jp/wiki/Azur_Lane_Wiki"
+            },
+            {
+                "website" : "Azur Lane Global Tier List",
+                "websiteaddress" : "https://slaimuda.github.io/ectl/#/home"
+            }
+        ]
+    }
+]

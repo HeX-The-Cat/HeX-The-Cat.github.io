@@ -1,7 +1,7 @@
 [
     {
         "gear": "Main PC",
-        "picture": "blep.png",
+        "picture": "pc.jpg",
         "text": "The main warmachine of the household, altho starting to run outdated iron. Intel i7-9700k, cursed 24GB of DDR4 @3200MHz and MSI GTX 1070 GPU."
     },
     {
@@ -16,7 +16,7 @@
     },
     {
         "gear": "Oculus Rift",
-        "picture": "blep.png",
+        "picture": "oculus.jpg",
         "text": "Original release edition, seen lots of use on games like VRChat and Beat Saber. Now in retirement, not for technical faults, but due to Facebook's/Meta's aquisition of Oculus and forceful pushing of social media to be linked with the machine and marketing info extraction."
     }
 ]

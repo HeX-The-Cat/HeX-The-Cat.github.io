@@ -12,7 +12,16 @@ h1 {
     font-size: 30px;
 }
 
+h2 {
+    color: white;
+    font-size: 25px;
+}
+
 p {
+    color: white;
+}
+
+a{
     color: white;
 }
 
@@ -21,7 +30,7 @@ li {
 }
 
 .GearImage{
-    max-height: 600px;
+    max-height: 400px;
     max-width: 600px;
 }
 
@@ -32,8 +41,6 @@ li {
 @media (min-width: 1410px){
     .pageWidth {
         width: 1410px
-    }
-    .maxWidthThingy{
     }
 }
 
