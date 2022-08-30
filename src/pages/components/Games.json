@@ -1,5 +1,12 @@
 [
     {
+        "game": "Apex Legends",
+        "image": "",
+        "video": "https://www.youtube.com/embed/SE7PkB6Gtb8",
+        "text": "Apex Legends is a free-to-play battle royale-hero shooter game developed by Respawn Entertainment and published by Electronic Arts.",
+        "background": ""
+    },
+    {
         "game": "Azur Lane",
         "image": "azurlane.gif",
         "video": "",
@@ -7,10 +14,17 @@
         "background": ""
     },
     {
-        "game": "Apex Legends",
+        "game": "Beat Saber",
         "image": "",
-        "video": "https://www.youtube.com/embed/SE7PkB6Gtb8",
-        "text": "Apex Legends is a free-to-play battle royale-hero shooter game developed by Respawn Entertainment and published by Electronic Arts.",
+        "video": "https://www.youtube.com/embed/LPb7moxwSSA",
+        "text": "Beat Saber is a virtual reality rhythm game developed and published by Czech game developer Beat Games. It takes place in a surrealistic neon environment and features the player slicing blocks representing musical beats with a pair of contrasting-colored sabers.",
+        "background": ""
+    },
+    {
+        "game": "Escape from Tarkov",
+        "image": "",
+        "video": "https://www.youtube.com/embed/QpBHiy77PPM",
+        "text": "Escape from Tarkov is a multiplayer first-person shooter video game in development by Battlestate Games for Windows. The game is set in the fictional Norvinsk region, where a war is taking place between two private military companies.",
         "background": ""
     },
     {
@@ -25,20 +39,6 @@
         "image": "",
         "video": "https://www.youtube.com/embed/aqLGEFjp9RQ",
         "text": "World of Warships is a free-to-play naval warfare-themed multiplayer online game produced and published by Wargaming and developed by its subsidiary Lesta Studio, following the earlier games World of Tanks and World of Warplanes",
-        "background": ""
-    },
-    {
-        "game": "Escape from Tarkov",
-        "image": "",
-        "video": "https://www.youtube.com/embed/QpBHiy77PPM",
-        "text": "Escape from Tarkov is a multiplayer first-person shooter video game in development by Battlestate Games for Windows. The game is set in the fictional Norvinsk region, where a war is taking place between two private military companies.",
-        "background": ""
-    },
-    {
-        "game": "Beat Saber",
-        "image": "",
-        "video": "https://www.youtube.com/embed/LPb7moxwSSA",
-        "text": "Beat Saber is a virtual reality rhythm game developed and published by Czech game developer Beat Games. It takes place in a surrealistic neon environment and features the player slicing blocks representing musical beats with a pair of contrasting-colored sabers.",
         "background": ""
     }
 ]

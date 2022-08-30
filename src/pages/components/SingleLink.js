@@ -1,6 +1,6 @@
 const SingleLink = ({name, address, index}) => {
     return(
-        <div>
+        <div className="">
             <a href={address} target="_blank" rel="noopener noreferrer">{name}</a>
         </div>
     )
