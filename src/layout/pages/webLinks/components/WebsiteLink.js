@@ -4,8 +4,8 @@
 const WebsiteLink = ({websitegroup , websitelinks}) => {
     return(
         <div className=" p-1">
-            <div className=" p-1 border-2 rounded-lg">
-                <h2>{websitegroup}</h2>
+            <div className=" p-1">
+                <h2 className="flex justify-center">{websitegroup}</h2>
 
                 {websitelinks.map((item, index) => {
                     return(
@@ -18,7 +18,6 @@ const WebsiteLink = ({websitegroup , websitelinks}) => {
                     )
                 })}
             </div>
-            
         </div>
     )
 }

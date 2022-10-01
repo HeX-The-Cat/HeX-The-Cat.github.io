@@ -1,0 +1,8 @@
+.links {
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: #54b3d6;
+    transition: color .15s ease-in-out;
+}
+.links:hover {
+  color: #fff;
+}

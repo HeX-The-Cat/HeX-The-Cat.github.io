@@ -7,19 +7,19 @@ const NavBar = () => {
         <nav>
             <ul className=" flex justify-center">
                 <li className=" py-1 px-2">
-                  <NavLink to="/"> home </NavLink>
+                  <NavLink to="/"> Home </NavLink>
                 </li>
                 <li className=" py-1 px-2">
-                  <NavLink to="gear" > gear </NavLink>
+                  <NavLink to="gear" > Gear </NavLink>
                 </li>
                 <li className=" py-1 px-2">
-                  <NavLink to="games" > games </NavLink>
+                  <NavLink to="games" > Games </NavLink>
                 </li>
                 <li className=" py-1 px-2">
-                  <NavLink to="links"> links </NavLink>
+                  <NavLink to="links"> Links </NavLink>
                 </li>
                 <li className=" py-1 px-2">
-                  <NavLink to="trello" > trello </NavLink>
+                  <NavLink to="trello" > Trello </NavLink>
                 </li>
             </ul>
         </nav>

@@ -20,5 +20,18 @@
                 "websiteaddress" : "http://bg55.com/bg55ftc-main.php"
             }
         ]
+    },
+    {
+        "websitegroup" : "Escape from Tarkov",
+        "websitelinks" : [
+            {
+                "website" : "Tarkov Wiki",
+                "websiteaddress" : "https://escapefromtarkov.fandom.com/wiki/Escape_from_Tarkov_Wiki"
+            },
+            {
+                "website" : "NoFAM Ammo Chart",
+                "websiteaddress" : "https://eft-ammo.com/"
+            }
+        ]
     }
 ]
