@@ -2,7 +2,7 @@ const Home = () => {
     return (
         <div className=" h-auto ">
             <h1 className=" flex justify-center">
-                This webpage is a minor personal project for learning coding and self torturing.
+                This webpage is a personal project for learning coding and self torturing.
             </h1>
             <p className=" flex justify-center">
                 <br/>

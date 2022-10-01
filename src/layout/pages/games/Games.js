@@ -7,7 +7,7 @@ const Games = () => {
         <div className=" h-auto ">
             {GamesJson.map((item, index) => {
                 return(
-                    <Game 
+                    <Game
                         index={item.index}
                         key={item.game + index}
                         game={item.game}

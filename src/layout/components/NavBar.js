@@ -10,6 +10,9 @@ const NavBar = () => {
                   <NavLink to="/"> Home </NavLink>
                 </li>
                 <li className=" py-1 px-2">
+                  <NavLink to="introduction" > Introduction </NavLink>
+                </li>
+                <li className=" py-1 px-2">
                   <NavLink to="gear" > Gear </NavLink>
                 </li>
                 <li className=" py-1 px-2">

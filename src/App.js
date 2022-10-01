@@ -8,6 +8,7 @@ import Games from "./layout/pages/games/Games";
 import NoPage from "./layout/pages/noPage/NoPage";
 import Trello from "./layout/pages/trello/Trello";
 import WebsiteLinks from "./layout/pages/webLinks/WebsiteLinks";
+import Introduction from "./layout/pages/introduction/Introduction";
 
 function App() {
   const[buttonPopUp, setButtonPopUp] = useState(true);
@@ -19,6 +20,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
+            <Route path="Introduction" element={<Introduction />} />
             <Route path="Gear" element={<Gear />} />
             <Route path="Games" element={<Games />} />
             <Route path="Links" element={<WebsiteLinks />} />

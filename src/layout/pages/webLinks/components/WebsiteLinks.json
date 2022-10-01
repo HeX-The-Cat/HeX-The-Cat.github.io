@@ -1,4 +1,14 @@
 [
+    
+    {
+        "websitegroup" : "Anime",
+        "websitelinks" : [
+            {
+                "website" : "Anime Seasons",
+                "websiteaddress" : "https://www.livechart.me/"
+            }
+        ]
+    },
     {
         "websitegroup" : "Azur Lane",
         "websitelinks" : [

@@ -7,7 +7,7 @@ const Layout = () => {
     <div className=" flex h-screen">
       <div>
 
-        <div className="NavBarHeight">
+        <div className="NavBarHeight border-b-2 border-slate-400">
           <NavBar />
         </div>
 
