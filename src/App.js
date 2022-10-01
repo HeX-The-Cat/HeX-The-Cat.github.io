@@ -1,13 +1,13 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useState } from "react";
 import PopUp from "./popup_components/PopUp";
-import Layout from './pages/Layout';
-import Home from './pages/Home';
-import Gear from './pages/Gear';
-import Games from './pages/Games';
-import NoPage from "./pages/NoPage";
-import Trello from "./pages/Trello";
-import WebsiteLinks from "./pages/WebsiteLinks";
+import Layout from './layout/Layout';
+import Home from "./layout/pages/home/Home";
+import Gear from "./layout/pages/gear/Gear";
+import Games from "./layout/pages/games/Games";
+import NoPage from "./layout/pages/noPage/NoPage";
+import Trello from "./layout/pages/trello/Trello";
+import WebsiteLinks from "./layout/pages/webLinks/WebsiteLinks";
 
 function App() {
   const[buttonPopUp, setButtonPopUp] = useState(true);

@@ -10,7 +10,7 @@ const Gear = () => {
                         index={item.index}
                         key={item.gear + index}
                         gear={item.gear}
-                        picture={item.picture}
+                        image={item.image}
                         text={item.text}
                         background={item.background}
                     />

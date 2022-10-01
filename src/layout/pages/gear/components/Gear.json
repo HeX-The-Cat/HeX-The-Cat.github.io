@@ -1,22 +1,22 @@
 [
     {
         "gear": "Main PC",
-        "picture": "pc.jpg",
+        "image": "pc.jpg",
         "text": "The main warmachine of the household, altho starting to run outdated iron. Intel i7-9700k, cursed 24GB of DDR4 @3200MHz and MSI GTX 1070 GPU."
     },
     {
         "gear": "Cintiq 16\"",
-        "picture": "cintiq.jpg",
+        "image": "cintiq.jpg",
         "text": "Wacom pen display, in semi-regular use as third screen while deving webpages, occasionally also used for its actual purpose; digital art.<br/><br/>For background, see <u><a href=\"https://steamcommunity.com/sharedfiles/filedetails/?id=2473589076\" target=\"_blank\">Steam Workshop</a></u>."
     },
     {
         "gear": "Ye olde \"server\" PC",
-        "picture": "blep.png",
+        "image": "blep.png",
         "text": "Trusty rustbucket from 2012s. Sports Intel i7-3770k, 16GB of DDR3 @1600Hz and 500GB 2,5\" SSD. Mainly seen use as server machine, example, for modded Minecraft. Possibly looking into setting up as some kind of external storage in future, presuming the iron holds."
     },
     {
         "gear": "Oculus Rift",
-        "picture": "oculus.jpg",
+        "image": "oculus.jpg",
         "text": "Original release edition, seen lots of use on games like VRChat and Beat Saber. Now in retirement, not for technical faults, but due to Facebook's/Meta's aquisition of Oculus and forceful pushing of social media to be linked with the machine and marketing info extraction."
     }
 ]

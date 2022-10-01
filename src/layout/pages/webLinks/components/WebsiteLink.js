@@ -4,7 +4,7 @@
 const WebsiteLink = ({websitegroup , websitelinks}) => {
     return(
         <div className=" p-1">
-            <div className=" p-1 border-2">
+            <div className=" p-1 border-2 rounded-lg">
                 <h2>{websitegroup}</h2>
 
                 {websitelinks.map((item, index) => {
