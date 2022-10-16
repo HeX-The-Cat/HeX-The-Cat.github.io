@@ -3,30 +3,30 @@ import '../../index.css'
 
 const NavBar = () => {
     return (
-      <div className=" p-3">
-        <nav>
-            <ul className=" flex justify-center">
-                <li className=" py-1 px-2">
+      <>
+        <nav className=" h-full items-center">
+            <ul className=" h-full flex items-stretch justify-center">
+                <li className=" flex px-2 items-center">
                   <NavLink to="/"> Home </NavLink>
                 </li>
-                <li className=" py-1 px-2">
-                  <NavLink to="introduction" > Introduction </NavLink>
+                <li className=" flex px-2 items-center">
+                  <NavLink to="introduction"> Introduction </NavLink>
                 </li>
-                <li className=" py-1 px-2">
+                <li className=" flex px-2 items-center">
                   <NavLink to="gear" > Gear </NavLink>
                 </li>
-                <li className=" py-1 px-2">
+                <li className=" flex px-2 items-center">
                   <NavLink to="games" > Games </NavLink>
                 </li>
-                <li className=" py-1 px-2">
+                <li className=" flex px-2 items-center">
                   <NavLink to="links"> Links </NavLink>
                 </li>
-                <li className=" py-1 px-2">
+                <li className=" flex px-2 items-center">
                   <NavLink to="trello" > Trello </NavLink>
                 </li>
             </ul>
         </nav>
-      </div>
+      </>
     )
 }
 

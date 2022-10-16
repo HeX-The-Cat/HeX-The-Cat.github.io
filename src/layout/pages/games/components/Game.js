@@ -2,7 +2,7 @@
 
 const Game = ({game, video, text, image, background, index}) => {
     return (
-        <div className="flex justify-center py-5">
+        <div className="flex justify-center pb-3">
             <div className=" ">
                 <h1 className="flex justify-center">{game}</h1>
                 <div className="flex justify-center items-center p-3">

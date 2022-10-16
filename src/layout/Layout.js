@@ -7,12 +7,15 @@ const Layout = () => {
     <div className=" flex h-screen">
       <div>
 
-        <div className="NavBarHeight border-b-2 border-slate-400">
-          <NavBar />
+        <div className=" fixed w-full NavBarHeight group NavBarBG">
+          <p className=" fixed w-full NavBarDots">~ ~ ~ ~ ~</p>
+          <div className="  fixed w-full h-[7%] NavBarItem">
+            <NavBar />
+          </div>
         </div>
 
         <div className="OutletHeight OutletNoScrollBar w-screen flex justify-center">
-          <div className="pageWidth">
+          <div className="pageWidth pt-20">
             <Outlet />
           </div>
         </div>
@@ -23,3 +26,8 @@ const Layout = () => {
 };
 
 export default Layout;
+
+
+
+
+//

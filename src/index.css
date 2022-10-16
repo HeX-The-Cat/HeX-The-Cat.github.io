@@ -38,6 +38,10 @@ li {
     min-width: 560px;
 }
 
+.NavBarBG{
+    background-color: #201c1c
+}
+
 @media (min-width: 1410px){
     .pageWidth {
         width: 1410px
@@ -50,13 +54,26 @@ li {
     }
 }
 
-.NavBarHeight{
-    height: 7%;
+@layer components {
+    .NavBarHeight{
+        @apply h-[3%] border-b-2 border-slate-400
+        hover:h-[7%] transition-all duration-75
+    }
+    .NavBarItem{
+        @apply scale-0 duration-75 group-hover:scale-100
+    }
+    .NavBarDots{
+        @apply scale-100 duration-75 group-hover:scale-0 flex justify-center w-screen
+    }
+    .OutletHeight{
+        @apply h-[97%]
+    }
+
+
+
 }
 
-.OutletHeight{
-    height: 93%;
-}
+
 
 
 .OutletNoScrollBar {
