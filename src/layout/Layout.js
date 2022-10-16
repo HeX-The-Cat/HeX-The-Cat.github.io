@@ -9,13 +9,13 @@ const Layout = () => {
 
         <div className=" fixed w-full NavBarHeight group NavBarBG">
           <p className=" fixed w-full NavBarDots">~ ~ ~ ~ ~</p>
-          <div className="  fixed w-full h-[7%] NavBarItem">
+          <div className="  fixed w-full NavBarItem">
             <NavBar />
           </div>
         </div>
 
         <div className="OutletHeight OutletNoScrollBar w-screen flex justify-center">
-          <div className="pageWidth pt-20">
+          <div className="pageWidth pt-16">
             <Outlet />
           </div>
         </div>

@@ -56,17 +56,17 @@ li {
 
 @layer components {
     .NavBarHeight{
-        @apply h-[3%] border-b-2 border-slate-400
-        hover:h-[7%] transition-all duration-75
+        @apply h-8 border-b-2 border-slate-400
+        hover:h-16 transition-all duration-75
     }
     .NavBarItem{
-        @apply scale-0 duration-75 group-hover:scale-100
+        @apply scale-0 duration-75 group-hover:scale-100 h-16
     }
     .NavBarDots{
         @apply scale-100 duration-75 group-hover:scale-0 flex justify-center w-screen
     }
     .OutletHeight{
-        @apply h-[97%]
+        @apply h-full
     }
 
 
