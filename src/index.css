@@ -2,31 +2,36 @@
 @tailwind components;
 @tailwind utilities;
 
+:root{
+    --main-bg-color: #201c1c;
+    --main-font-color: white;
+}
+
 body {
     font-size: 20px;
-    background-color: #201c1c;
+    background-color: var(--main-bg-color);
 }
 
 h1 {
-    color: white;
+    color: var(--main-font-color);
     font-size: 30px;
 }
 
 h2 {
-    color: white;
+    color: var(--main-font-color);
     font-size: 25px;
 }
 
 p {
-    color: white;
+    color: var(--main-font-color);
 }
 
 a{
-    color: white;
+    color: var(--main-font-color);
 }
 
 li {
-    color: white;
+    color: var(--main-font-color);
 }
 
 .GearImage{
@@ -39,7 +44,7 @@ li {
 }
 
 .NavBarBG{
-    background-color: #201c1c
+    background-color: var(--main-bg-color)
 }
 
 @media (min-width: 1410px){

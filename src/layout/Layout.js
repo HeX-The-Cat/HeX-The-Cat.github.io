@@ -8,7 +8,7 @@ const Layout = () => {
       <div>
 
         <div className=" fixed w-full NavBarHeight group NavBarBG">
-          <p className=" fixed w-full NavBarDots">~ ~ ~ ~ ~</p>
+          <p className=" fixed w-full NavBarDots">^ Navigation ^</p>
           <div className="  fixed w-full NavBarItem">
             <NavBar />
           </div>
