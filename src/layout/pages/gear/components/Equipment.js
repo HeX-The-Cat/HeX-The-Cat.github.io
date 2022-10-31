@@ -1,11 +1,12 @@
 import dangerouslySetInnerHTML from "react";
+import "./equipment.css"
 
 const Equipment = ({gear, image, text, index}) => {
     return (
-        <div className=" flex justify-center pb-3">
+        <div className="  pb-3">
             <div className="">
                 <h1 className=" flex justify-center">{gear}</h1>
-                <div className=" flex justify-center items-center">
+                <div className=" basic-grid">
                     {image.length > 0 &&
                             <img className="GearImage" src={require('../img/' + image)}/>
                     }

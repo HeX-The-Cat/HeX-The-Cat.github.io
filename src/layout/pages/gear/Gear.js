@@ -1,5 +1,5 @@
 import Equipment from "./components/Equipment";
-import GearsJson from "./components/Gear.json"
+import GearsJson from "./components/Gear.json";
 
 const Gear = () => {
     return (
