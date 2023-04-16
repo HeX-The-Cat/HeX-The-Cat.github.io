@@ -2,7 +2,7 @@
     {
         "gear": "Main PC",
         "image": "pc.jpg",
-        "text": "The main warmachine of the household, altho starting to run outdated iron. Intel i7-9700k, cursed 24GB of DDR4 @3200MHz and MSI GTX 1070 GPU."
+        "text": "The main warmachine of the household. Ryzen 7 5700X, 32GB of DDR4 @3600MHz, Asus 3070 Ti ROG Strix, and plethora of different size of storage, including 500GB & 1TB NVMe SSD, 4TB 2,5\" SSD, 1TB Raid 1 2,5\" SSD and some old 1TB HDD not attached to machine."
     },
     {
         "gear": "Cintiq 16\"",
@@ -11,8 +11,8 @@
     },
     {
         "gear": "Ye olde \"server\" PC",
-        "image": "blep.png",
-        "text": "Trusty rustbucket from 2012s. Sports Intel i7-3770k, 16GB of DDR3 @1600Hz and 500GB 2,5\" SSD. Mainly seen use as server machine, example, for modded Minecraft. Possibly looking into setting up as some kind of external storage in future, presuming the iron holds."
+        "image": "server.jpg",
+        "text": "Trusty rustbucket from 2012s, continuousliy upgraded with old parts from main PC. Sports Intel i7-9700k and 16GB of DDR4 @3200Hz (really should upgrade to 32GB). Mainly sees use NAS, with spare 4TB Raid 1 long-term storage, and server machine, example, for modded Minecraft. Soon to also house Project Ambition, Discord bot for personal use."
     },
     {
         "gear": "Oculus Rift",
