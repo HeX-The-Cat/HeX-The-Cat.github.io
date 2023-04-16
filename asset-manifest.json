@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.240a5f60.css",
-    "main.js": "/static/js/main.8ce7df42.js",
+    "main.css": "/static/css/main.0086677d.css",
+    "main.js": "/static/js/main.701abac6.js",
     "static/media/azurlane.gif": "/static/media/azurlane.8f26d555d53de279ef54.gif",
+    "static/media/server.jpg": "/static/media/server.f5315ac958c11178f38d.jpg",
     "static/media/pc.jpg": "/static/media/pc.280214f0b041595ca676.jpg",
     "static/media/oculus.jpg": "/static/media/oculus.8a413792fbc6eec48405.jpg",
     "static/media/neptunenod.gif": "/static/media/neptunenod.c7259d50a459cc4db410.gif",
@@ -10,11 +11,11 @@
     "static/media/blep.png": "/static/media/blep.2abba22f78b95e27361f.png",
     "static/media/sleepy_ket.png": "/static/media/sleepy_ket.ef9e85b27e5ab81d2a52.png",
     "index.html": "/index.html",
-    "main.240a5f60.css.map": "/static/css/main.240a5f60.css.map",
-    "main.8ce7df42.js.map": "/static/js/main.8ce7df42.js.map"
+    "main.0086677d.css.map": "/static/css/main.0086677d.css.map",
+    "main.701abac6.js.map": "/static/js/main.701abac6.js.map"
   },
   "entrypoints": [
-    "static/css/main.240a5f60.css",
-    "static/js/main.8ce7df42.js"
+    "static/css/main.0086677d.css",
+    "static/js/main.701abac6.js"
   ]
 }
