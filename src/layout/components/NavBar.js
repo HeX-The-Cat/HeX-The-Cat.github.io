@@ -19,6 +19,9 @@ const NavBar = () => {
                   <NavLink to="games" > Games </NavLink>
                 </li>
                 <li className=" flex px-2 items-center">
+                  <NavLink to="cssthingy"> CSS Thingy </NavLink>
+                </li>
+                <li className=" flex px-2 items-center">
                   <NavLink to="links"> Links </NavLink>
                 </li>
                 <li className=" flex px-2 items-center">

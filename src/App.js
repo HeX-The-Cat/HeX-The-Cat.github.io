@@ -9,12 +9,13 @@ import NoPage from "./layout/pages/noPage/NoPage";
 import Trello from "./layout/pages/trello/Trello";
 import WebsiteLinks from "./layout/pages/webLinks/WebsiteLinks";
 import Introduction from "./layout/pages/introduction/Introduction";
+import CssThingy from "./layout/pages/cssThingy/CssThingy";
 
 function App() {
   const[buttonPopUp, setButtonPopUp] = useState(true);
   return (
     <div>
-      <PopUp trigger={buttonPopUp} setTrigger={setButtonPopUp} />
+      
 
       <BrowserRouter>
         <Routes>
@@ -23,6 +24,7 @@ function App() {
             <Route path="Introduction" element={<Introduction />} />
             <Route path="Gear" element={<Gear />} />
             <Route path="Games" element={<Games />} />
+            <Route path="CssThingy" element={<CssThingy />} />
             <Route path="Links" element={<WebsiteLinks />} />
             <Route path="Trello" element={<Trello />} />
             <Route path="*" element={<NoPage />} />
@@ -34,3 +36,5 @@ function App() {
 }
 
 export default App;
+
+//<PopUp trigger={buttonPopUp} setTrigger={setButtonPopUp} />

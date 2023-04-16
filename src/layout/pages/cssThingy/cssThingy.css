@@ -1,0 +1,266 @@
+.playArea{
+    width: 1410px;
+    height: 800px;
+    position: relative;
+}
+
+.circleHolder{
+
+    
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.circle {
+
+    height: 300px;
+    width: 300px;
+
+    border: 3px solid white;
+    border-radius: 50%;
+
+    position: relative;
+    
+}
+
+:root{
+    --animation-timers:  0s, 0.75s, 1.5s, 2.25s, 3s;
+    --animation-durations: 1s;
+}
+
+
+.animeCircle{
+    animation-name: CircleMover, Enlarge, Ender;
+    animation-delay: 0s, 1.5s, 3s;
+    animation-fill-mode: forwards;
+    animation-duration: 0.75s, 0.75s, 1s;
+}
+
+@keyframes CircleMover{
+    from{
+        top: -100%;
+        left: -150%;
+        width: 400px;
+        height: 400px;
+    }
+    to{
+        top: -50%;
+        left: 100%;
+        width: 200px;
+        height: 200px;
+    }
+}
+@keyframes Enlarge{
+    to{
+        width: 300px;
+        height: 300px;
+    }
+}
+@keyframes Ender{
+    to{
+        top: -150%;
+        left: -200%;
+        width: 400px;
+        height: 400px;
+    }
+}
+
+
+.animCircleHolder1{
+    animation-name: SwingStart, Swinger11, Swinger12, Swinger13, Swinger14;
+    animation-delay: var(--animation-timers);
+    animation-fill-mode: forwards;
+    animation-duration: var(--animation-durations);
+}
+.animCircleHolder2{
+    animation-name: SwingStart, Swinger21, Swinger12, Swinger13, Swinger14;
+    animation-delay: var(--animation-timers);
+    animation-fill-mode: forwards;
+    animation-duration: var(--animation-durations);
+}
+.animCircleHolder3{
+    animation-name: SwingStart, Swinger31, Swinger32, Swinger33, Swinger34;
+    animation-delay: var(--animation-timers);
+    animation-fill-mode: forwards;
+    animation-duration: var(--animation-durations);
+}
+.animCircleHolder4{
+    animation-name: SwingStart, Swinger41, Swinger32, Swinger33, Swinger34;
+    animation-delay: var(--animation-timers);
+    animation-fill-mode: forwards;
+    animation-duration: var(--animation-durations);
+}
+.animCircleHolder5{
+    animation-name: SwingStart, Swinger51, Swinger52, Swinger33, Swinger34;
+    animation-delay: var(--animation-timers);
+    animation-fill-mode: forwards;
+    animation-duration: var(--animation-durations);
+}
+.animCircleHolder6{
+    animation-name: SwingStart, Swinger61, Swinger52, Swinger33, Swinger34;
+    animation-delay: var(--animation-timers);
+    animation-fill-mode: forwards;
+    animation-duration: var(--animation-durations);
+}
+.animCircleHolder7{
+    animation-name: SwingStart, Swinger71, Swinger72, Swinger73, Swinger74;
+    animation-delay: var(--animation-timers);
+    animation-fill-mode: forwards;
+    animation-duration: var(--animation-durations);
+}
+.animCircleHolder8{
+    animation-name: SwingStart, Swinger81, Swinger72, Swinger73, Swinger74;
+    animation-delay: var(--animation-timers);
+    animation-fill-mode: forwards;
+    animation-duration: var(--animation-durations);
+}
+
+
+@keyframes SwingStart{
+    from{
+        transform-origin:left;
+        transform: rotate(0deg);
+    }
+    to{
+        transform-origin:left;
+        transform: rotate(270deg)
+    }
+}
+
+@keyframes Swinger11{
+    
+    to {
+        transform-origin:left;
+        transform:  rotate(450deg);
+    }
+}
+@keyframes Swinger12{
+    
+    to {
+        transform-origin:left;
+        transform:  rotate(675deg);
+    }
+}
+@keyframes Swinger13{
+    
+    to {
+        transform-origin:left;
+        transform:  rotate(900deg);
+    }
+}
+@keyframes Swinger14{
+    
+    to {
+        transform-origin:left;
+        transform:  rotate(1260deg);
+    }
+}
+
+@keyframes Swinger21{
+    
+    to {
+        transform-origin:left;
+        transform:  rotate(495deg);
+    }
+}
+
+@keyframes Swinger31{
+    
+    to {
+        transform-origin:left;
+        transform:  rotate(540deg);
+    }
+}
+@keyframes Swinger32{
+    
+    to {
+        transform-origin:left;
+        transform:  rotate(765deg);
+    }
+}
+@keyframes Swinger33{
+    
+    to {
+        transform-origin:left;
+        transform:  rotate(1080deg);
+    }
+}
+@keyframes Swinger34{
+    
+    to {
+        transform-origin:left;
+        transform:  rotate(1440deg);
+    }
+}
+
+@keyframes Swinger41{
+    
+    to {
+        transform-origin:left;
+        transform:  rotate(585deg);
+    }
+}
+
+@keyframes Swinger51{
+    
+    to {
+        transform-origin:left;
+        transform:  rotate(630deg);
+    }
+}
+@keyframes Swinger52{
+    
+    to {
+        transform-origin:left;
+        transform:  rotate(855deg);
+    }
+}
+
+@keyframes Swinger61{
+    
+    to {
+        transform-origin:left;
+        transform:  rotate(675deg);
+    }
+}
+
+@keyframes Swinger71{
+    
+    to {
+        transform-origin:left;
+        transform:  rotate(720deg);
+    }
+}
+@keyframes Swinger72{
+    
+    to {
+        transform-origin:left;
+        transform:  rotate(945deg);
+    }
+}
+@keyframes Swinger73{
+    
+    to {
+        transform-origin:left;
+        transform:  rotate(1260deg);
+    }
+}
+@keyframes Swinger74{
+    
+    to {
+        transform-origin:left;
+        transform:  rotate(1620deg);
+    }
+}
+
+
+@keyframes Swinger81{
+    
+    to {
+        transform-origin:left;
+        transform:  rotate(765deg);
+    }
+}
