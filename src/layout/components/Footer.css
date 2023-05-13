@@ -1,0 +1,20 @@
+.logo {
+    height: 6em;
+    padding: 1.5em;
+}
+
+.react {
+    animation-name: logo-spin;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear
+}
+
+@keyframes logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

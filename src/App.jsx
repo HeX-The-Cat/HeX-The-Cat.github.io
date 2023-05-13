@@ -1,22 +1,35 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-function App() {
-  const [count, setCount] = useState(0)
+import PopUp from "./popup_components/PopUp";
+
+import Layout from './layout/Layout';
+import Home from "./layout/pages/home/Home";
+import Goals from "./layout/pages/goals/Goals";
+
+import NoPage from "./layout/pages/nopage/NoPage";
+
+const App = () => {
+
+  const[buttonPopUp, setButtonPopUp] = useState(true);
 
   return (
     <>
       
-      <h1>Welcome to Project Auros</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-      </div>
+
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path="goals" element={<Goals />} />
+            <Route path="*" element={<NoPage />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>  
     </>
   )
 }
 
 export default App
+
+//<PopUp trigger={buttonPopUp} setTrigger={setButtonPopUp} />
