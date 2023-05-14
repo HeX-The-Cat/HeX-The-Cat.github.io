@@ -7,20 +7,18 @@ import "./Layout.css";
 const Layout = () => {
   return (
     <>
-      <div >
-        <div className=" h-screen">
-          <div className=" bg-slate-800">
-            <Navbar />
-          </div>
+      <div className=" relative  min-h-screen">
+        <div className=" bg-slate-800">
+          <Navbar />
+        </div>
 
-          <div className="">
-            <Outlet />
-          </div>
+        <div className=" ">
+          <Outlet />
+        </div>
+        <div className="h-[10rem]"/>
 
-          <div className=" FooterCSS bg-slate-800 rounded-t-3xl" >
-            <Footer /> 
-          </div>
-
+        <div className=" FooterCSS bg-slate-800 rounded-t-3xl absolute inset-x-0 bottom-0" >
+          <Footer /> 
         </div>
       </div>
     </>

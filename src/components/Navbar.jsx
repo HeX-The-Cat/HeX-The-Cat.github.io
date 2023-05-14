@@ -9,7 +9,7 @@ function Navbar() {
       <nav className=" flex justify-between w-[100%] h-auto NavbarMain">
         <div>
           <Link to="/">
-            <img src={hexlogo} className=" logo"/>
+            <img src={hexlogo} className=" Navlogo"/>
           </Link>
         </div>
         <div>

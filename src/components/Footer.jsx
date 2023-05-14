@@ -7,12 +7,12 @@ const Footer = () => {
         <>
             <div className='flex justify-between w-[100%] FooterMain'>
                 <div className=' flex flex-col justify-center pl-8'>
-                    <p className=' text-5xl py-2'>Website by:</p>
-                    <p className=' text-5xl py-2'>HeX The Cat</p>
+                    <p className=' text-4xl py-2'>Website by:</p>
+                    <p className=' text-4xl py-2'>HeX The Cat</p>
                 </div>
 
                 
-                <div className=' pr-8'>
+                <div className=' flex flex-col justify-center pr-8'>
                     <p className=' text-xl font-bold text-center'>Made with:</p>
 
                     <div className=' flex h-28 items-center'>

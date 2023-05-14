@@ -1,0 +1,15 @@
+.GoalsDiv {
+    @apply my-5 p-5 bg-slate-800
+}
+
+.GoalsColRight {
+    @apply col-start-2 col-span-4 rounded-l-3xl rounded-r-md
+}
+.GoalsColLeft {
+    @apply col-start-1 col-span-4 rounded-l-md rounded-r-3xl
+}
+
+.goallogo {
+    height: 10em;
+    padding: 1.5em;
+}

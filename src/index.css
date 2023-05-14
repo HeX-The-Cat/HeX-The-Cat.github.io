@@ -15,9 +15,9 @@
   background-attachment: fixed;
   color: aliceblue;
 
-  --main-bg-color: #171a1f;
-  --secondary-color: red;
-  --tertiary-color: #0e5e4f;
+  --main-bg: #171a1f;
+  --secondary: #0E5E4F;
+  --tertiary: #018D6F;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -28,16 +28,24 @@
 
 a {
   font-weight: 500;
-  color: var(--tertiary-color);
+  color: var(--secondary);
   text-decoration: inherit;
 }
 a:hover {
-  color: #1fd8b6;
+  color: var(--tertiary);
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1.2em;
 }
 
 button {
