@@ -2,7 +2,11 @@ import React from 'react';
 
 function Goals() {
     return (
-        <h1>this is the goals!</h1>
+        <>
+            <div className=''>
+                <h1>There is a few things I wish to learn:</h1>
+            </div>
+        </> 
     );
 }
 

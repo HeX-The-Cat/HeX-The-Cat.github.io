@@ -2,30 +2,33 @@ import React from "react";
 import {Outlet} from "react-router-dom";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import "./Layout.css";
 
 const Layout = () => {
   return (
     <>
-      <div className=" h-screen bg-yellow-500">
+      <div >
+        <div className=" h-screen">
 
-        <div className=" flex h-1/6 ">
+          <div className=" flex h-1/6 ">
 
-          <p className="">Hee hee</p>
+            <p className="">Hee hee</p>
 
-          <div className=" ">
-            <Navbar />
-          </div>
+            <div className=" ">
+              <Navbar />
+            </div>
           
-        </div>
-        
-        <div className=" bg-blue-500">
-          <Outlet />
-        </div>
+          </div>
 
-        <div className=" h-1/6 bg-red-500">
-          <Footer /> 
-        </div>
+          <div className="">
+            <Outlet />
+          </div>
 
+          <div className=" FooterCSS bg-slate-800 overflow-x-hidden rounded-t-3xl" >
+            <Footer /> 
+          </div>
+
+        </div>
       </div>
     </>
   );
