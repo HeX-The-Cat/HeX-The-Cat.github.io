@@ -5,10 +5,10 @@ import { csplogo, cubismlogo, obslogo, videoediting, webdev, aftereffects } from
 function Goals() {
     return (
         <>
-            <h1 className=' w-fit mx-10 GoalsDiv rounded-xl'>There is a few things I want to learn:</h1>
+            <h1 className=' w-fit mx-10 GoalsCard rounded-xl'>There is a few things I want to learn:</h1>
 
             <div className=' grid grid-cols-5 min-h-screen my-5 mx-10'>
-                <div className=' GoalsDiv GoalsColRight flex justify-between'>
+                <div className=' GoalsCard GoalsCardRight flex justify-between'>
                     <img src={webdev} alt="web development" className='goallogo' />
                     <div className=' px-5'>
                         <h2>New stuff for website development (obviously)</h2>
@@ -18,7 +18,7 @@ function Goals() {
                     </div>
                 </div>
 
-                <div className=' GoalsDiv GoalsColLeft flex justify-between'>
+                <div className=' GoalsCard GoalsCardLeft flex justify-between'>
                     <div className=' px-5'>
                         <h2>Illustrations & drawing</h2>
                         <p>
@@ -29,7 +29,7 @@ function Goals() {
                     <img src={csplogo} alt="Clip Studio Paint" className='goallogo' />
                 </div>
 
-                <div className=' GoalsDiv GoalsColRight flex justify-between'>
+                <div className=' GoalsCard GoalsCardRight flex justify-between'>
                     <img src={aftereffects} alt="After Effects Logo" className='goallogo' />
                     <div className=' px-5'>
                         <h2>Adobe After Effects</h2>
@@ -40,7 +40,7 @@ function Goals() {
                     </div>
                 </div>
 
-                <div className=' GoalsDiv GoalsColLeft flex justify-between'>
+                <div className=' GoalsCard GoalsCardLeft flex justify-between'>
                     <div className=' px-5'>
                         <h2>Live2D</h2>
                         <p>
@@ -51,7 +51,7 @@ function Goals() {
                     <img src={cubismlogo} alt="Cubism logo" className='goallogo' />
                 </div>
 
-                <div className=' GoalsDiv GoalsColRight flex justify-between'>
+                <div className=' GoalsCard GoalsCardRight flex justify-between'>
                     <img src={videoediting} alt="Video Editing" className='goallogo' />
                     <div className=' px-5'>
                         <h2>Video editing</h2>
@@ -62,7 +62,7 @@ function Goals() {
                     </div>
                 </div>
 
-                <div className=' GoalsDiv GoalsColLeft flex justify-between'>
+                <div className=' GoalsCard GoalsCardLeft flex justify-between'>
                     <div className=' px-5'>
                         <h2>Streaming</h2>
                         <p>

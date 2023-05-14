@@ -8,7 +8,7 @@ const Layout = () => {
   return (
     <>
       <div className=" relative  min-h-screen">
-        <div className=" bg-slate-800">
+        <div className=" bg-slate-800 bg-opacity-80">
           <Navbar />
         </div>
 
@@ -17,7 +17,7 @@ const Layout = () => {
         </div>
         <div className="h-[10rem]"/>
 
-        <div className=" FooterCSS bg-slate-800 rounded-t-3xl absolute inset-x-0 bottom-0" >
+        <div className=" FooterCSS bg-slate-800 bg-opacity-80 rounded-t-3xl absolute inset-x-0 bottom-0" >
           <Footer /> 
         </div>
       </div>
