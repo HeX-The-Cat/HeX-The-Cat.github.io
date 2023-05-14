@@ -3,11 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import PopUp from "./popup_components/PopUp";
 
-import Layout from './layout/Layout';
-import Home from "./layout/pages/home/Home";
-import Goals from "./layout/pages/goals/Goals";
-
-import NoPage from "./layout/pages/nopage/NoPage";
+import { Layout, Home, Goals, NoPage } from './components';
 
 const App = () => {
 

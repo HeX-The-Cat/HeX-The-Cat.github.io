@@ -1,8 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import reactLogo from './assets/react.svg'
-import tailwindLogo from './assets/tailwind.svg'
-import viteLogo from './assets/vite.svg'
+import {reactLogo, viteLogo, tailwindLogo} from '../assets'
 
 const Footer = () => {
     return (
