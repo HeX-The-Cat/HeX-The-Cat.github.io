@@ -15,6 +15,10 @@
   background-attachment: fixed;
   color: aliceblue;
 
+  --main-bg-color: #171a1f;
+  --secondary-color: red;
+  --tertiary-color: #0e5e4f;
+
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -24,11 +28,11 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: var(--tertiary-color);
   text-decoration: inherit;
 }
 a:hover {
-  color: #3ba0e4;
+  color: #1fd8b6;
 }
 
 h1 {

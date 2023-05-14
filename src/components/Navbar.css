@@ -1,0 +1,9 @@
+.NavbarMain {
+    position: relative;
+    top: 50%;
+}
+
+.logo {
+    height: 6em;
+    padding: 1.5em;
+}

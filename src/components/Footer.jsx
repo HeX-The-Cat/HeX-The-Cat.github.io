@@ -5,7 +5,7 @@ import {reactLogo, viteLogo, tailwindLogo} from '../assets'
 const Footer = () => {
     return (
         <>
-            <div className='flex justify-between w-screen FooterMain'>
+            <div className='flex justify-between w-[100%] FooterMain'>
                 <div className=' flex flex-col justify-center pl-8'>
                     <p className=' text-5xl py-2'>Website by:</p>
                     <p className=' text-5xl py-2'>HeX The Cat</p>

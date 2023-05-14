@@ -9,22 +9,15 @@ const Layout = () => {
     <>
       <div >
         <div className=" h-screen">
-
-          <div className=" flex h-1/6 ">
-
-            <p className="">Hee hee</p>
-
-            <div className=" ">
-              <Navbar />
-            </div>
-          
+          <div className=" bg-slate-800">
+            <Navbar />
           </div>
 
           <div className="">
             <Outlet />
           </div>
 
-          <div className=" FooterCSS bg-slate-800 overflow-x-hidden rounded-t-3xl" >
+          <div className=" FooterCSS bg-slate-800 rounded-t-3xl" >
             <Footer /> 
           </div>
 
