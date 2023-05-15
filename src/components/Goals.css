@@ -4,7 +4,7 @@
 
 .GoalsCard {
     border-color: var(--secondary, .3);
-    @apply my-5 p-5 bg-slate-800 bg-opacity-80 border
+    @apply my-5 p-5 bg-slate-800 bg-opacity-95 border
 }
 
 .GoalsCardRight {

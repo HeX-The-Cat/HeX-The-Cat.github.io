@@ -1,9 +1,19 @@
+.NavbarCSS {
+    height: 6rem;
+    border-bottom: 1px solid var(--secondary);
+}
+
+.OutletCSS {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    align-content: center;
+    max-width: 1920px;
+}
+
 .FooterCSS {
     height: 10rem;
     border-top: 1px solid var(--secondary);
 }
 
-.NavbarCSS {
-    height: 6rem;
-    border-bottom: 1px solid var(--secondary);
-}
+

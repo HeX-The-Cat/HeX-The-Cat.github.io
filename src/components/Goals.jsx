@@ -5,6 +5,7 @@ import { csplogo, cubismlogo, obslogo, videoediting, webdev, aftereffects } from
 function Goals() {
     return (
         <>
+            <div className=' pt-5'/>
             <h1 className=' w-fit mx-10 GoalsCard rounded-xl'>There is a few things I want to learn:</h1>
 
             <div className=' grid grid-cols-5 min-h-screen my-5 mx-10'>
@@ -13,7 +14,7 @@ function Goals() {
                     <div className=' px-5'>
                         <h2>New stuff for website development (obviously)</h2>
                         <p>
-                            My skillset is currently very much on front-end, so I have hopes to learn some level of back-end as well. I also am looking into learning some more funky front-end libraries like three.js.
+                            My skillset is currently very much on front-end, so I have hopes to learn some level of back-end as well. I am also looking into learning some more funky front-end libraries like three.js.
                         </p>
                     </div>
                 </div>
