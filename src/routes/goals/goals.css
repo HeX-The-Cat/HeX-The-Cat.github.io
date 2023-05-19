@@ -1,0 +1,21 @@
+.GoalsCard {
+    border-color: var(--thirdcolor, .3);
+    background-color: var(--secondcolor);
+    @apply my-5 p-5 bg-opacity-95 border
+}
+
+.GoalsCardRight {
+    border-top-left-radius: var(--rounded-corner);
+    border-bottom-left-radius: var(--rounded-corner);
+    @apply col-start-2 col-span-4 rounded-r-md
+}
+.GoalsCardLeft {
+    border-top-right-radius: var(--rounded-corner);
+    border-bottom-right-radius: var(--rounded-corner);
+    @apply col-start-1 col-span-4 rounded-l-md
+}
+
+.goallogo {
+    height: 10em;
+    padding: 1.5em;
+}

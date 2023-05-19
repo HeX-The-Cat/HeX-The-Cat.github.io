@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    --firstcolor: #232020;
+    --secondcolor: #3A3535;
+    --thirdcolor: #FF7315;
+    color: #F4F4F4;
+
+    background-color: black;
+
+    --rounded-corner: 4rem;
+}
+
+a {
+    font-weight: 500;
+    text-decoration: inherit;
+  }
+  a:hover {
+    color: var(--thirdcolor);
+}
+
+h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+}
+  
+h2 {
+    font-size: 2em;
+}
+  
+p {
+    font-size: 1.2em;
+}
+
+.navlogo {
+    height: 6em;
+    padding: 1.5em;
+}
