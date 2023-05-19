@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { hexlogo } from "../assets";
 import "./Navbar.css";
 
@@ -8,14 +8,16 @@ function Navbar() {
     <>
       <nav className=" flex justify-between w-[100%] h-auto">
         <div>
-          <Link to="/">
+          <NavLink to="/">
             <img src={hexlogo} className=" Navlogo"/>
-          </Link>
+          </NavLink>
         </div>
         <div className=" pr-5">
           <ul className=" pt-4 h-full flex">
             <li className=" p-3 text-3xl">
-              <Link to="/goals" className=" text-center">Goals</Link>
+              <NavLink to="/goals" className={({ isActive }) => (isActive ? 'LinkActive' : 'LinkInactive')}>
+                Goals
+              </NavLink>
             </li>
           </ul>
         </div>
