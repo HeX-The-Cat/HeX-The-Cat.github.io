@@ -1,15 +1,23 @@
 <script>
     import "../app.css";
     import NavBar from "./NavBar.svelte"
+    import Background3d from "./background3d.svelte"
+    
+    
+
+    
 </script>
 
-<div>
-    <NavBar />
+    <Background3d />
 
-    <div class=" OutletCSS content-center">
-        <slot />
+    <div>
+        <NavBar />
+    
+        <div class=" OutletCSS content-center">
+            <slot />
+        </div>
     </div>
-</div>
+
 
 
 
