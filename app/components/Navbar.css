@@ -1,0 +1,17 @@
+.NavbarMain {
+    position: relative;
+}
+
+.NavLogo {
+    height: 6em;
+    width: 6em;
+    padding: 1.5em;
+}
+
+.LinkActive{
+    color: var(--tertiary)
+}
+
+.LinkInactive{
+    color: var(--secondary)
+}

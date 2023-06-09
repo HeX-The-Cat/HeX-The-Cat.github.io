@@ -1,0 +1,24 @@
+:root{
+    --rounded-corner: 4rem;
+}
+
+.GoalsCard {
+    border-color: var(--secondary, .3);
+    @apply my-5 p-5 bg-slate-800 bg-opacity-95 border
+}
+
+.GoalsCardRight {
+    border-top-left-radius: var(--rounded-corner);
+    border-bottom-left-radius: var(--rounded-corner);
+    @apply col-start-2 col-span-4 rounded-r-md
+}
+.GoalsCardLeft {
+    border-top-right-radius: var(--rounded-corner);
+    border-bottom-right-radius: var(--rounded-corner);
+    @apply col-start-1 col-span-4 rounded-l-md
+}
+
+.goallogo {
+    height: 10em;
+    padding: 1.5em;
+}
