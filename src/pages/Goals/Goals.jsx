@@ -10,7 +10,7 @@ function Goals() {
 
             <div className=' grid grid-cols-5 min-h-screen my-5 mx-10'>
                 <div className=' GoalsCard GoalsCardRight flex justify-between'>
-                    <img src={webdev} alt="web development" className='goallogo' />
+                    <img src={webdev} alt="web development" className='Goallogo' />
                     <div className=' px-5'>
                         <h2>New stuff for website development (obviously)</h2>
                         <p>
@@ -27,11 +27,11 @@ function Goals() {
                             I already own a Wacom Cintiq 16" drawing screen and software license for Clip Studio Paint, and occasionally do some small drawing with them.
                         </p>
                     </div>
-                    <img src={csplogo} alt="Clip Studio Paint" className='goallogo' />
+                    <img src={csplogo} alt="Clip Studio Paint" className='Goallogo' />
                 </div>
 
                 <div className=' GoalsCard GoalsCardRight flex justify-between'>
-                    <img src={aftereffects} alt="After Effects Logo" className='goallogo' />
+                    <img src={aftereffects} alt="After Effects Logo" className='Goallogo' />
                     <div className=' px-5'>
                         <h2>Adobe After Effects</h2>
                         <p>
@@ -49,11 +49,11 @@ function Goals() {
                             Software I've been looking to use is called Live2D Cubism.
                         </p>
                     </div>
-                    <img src={cubismlogo} alt="Cubism logo" className='goallogo' />
+                    <img src={cubismlogo} alt="Cubism logo" className='Goallogo ' />
                 </div>
 
                 <div className=' GoalsCard GoalsCardRight flex justify-between'>
-                    <img src={videoediting} alt="Video Editing" className='goallogo' />
+                    <img src={videoediting} alt="Video Editing" className='Goallogo' />
                     <div className=' px-5'>
                         <h2>Video editing</h2>
                         <p>
@@ -70,7 +70,7 @@ function Goals() {
                             Streaming as career has been a long time dream. Ideally incorporating the earlier mentioned goals as well as gaming for content.
                         </p>
                     </div>
-                    <img src={obslogo} alt="OBS logo" className='goallogo ' />
+                    <img src={obslogo} alt="OBS logo" className='Goallogo ' />
                 </div>
             </div>
         </> 
