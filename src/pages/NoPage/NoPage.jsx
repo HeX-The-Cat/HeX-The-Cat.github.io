@@ -1,4 +1,4 @@
-import { neptuneNod } from '../assets'
+import { neptuneNod } from '../../assets'
 
 const NoPage = () => {
     return(

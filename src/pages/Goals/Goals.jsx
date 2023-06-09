@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Goals.css";
-import { csplogo, cubismlogo, obslogo, videoediting, webdev, aftereffects } from '../assets';
+import { csplogo, cubismlogo, obslogo, videoediting, webdev, aftereffects } from '../../assets';
 
 function Goals() {
     return (
