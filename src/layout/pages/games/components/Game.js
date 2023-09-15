@@ -23,7 +23,7 @@ const Game = ({game, video, text, image, background, index}) => {
 
                     </div>
                     <div className="flex justify-center">
-                        <p className=" text-center px-3"> &#60;PH&#62; {text}</p>
+                        <p className=" text-center px-3">{text}</p>
                     </div>
                 </div>
             </div>
