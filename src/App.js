@@ -7,7 +7,6 @@ import Gear from "./layout/pages/gear/Gear";
 import Games from "./layout/pages/games/Games";
 import NoPage from "./layout/pages/noPage/NoPage";
 import Trello from "./layout/pages/trello/Trello";
-import WebsiteLinks from "./layout/pages/webLinks/WebsiteLinks";
 import Introduction from "./layout/pages/introduction/Introduction";
 import CssThingy from "./layout/pages/cssThingy/CssThingy";
 
@@ -26,7 +25,6 @@ function App() {
             <Route path="Gear" element={<Gear />} />
             <Route path="Games" element={<Games />} />
             <Route path="CssThingy" element={<CssThingy />} />
-            <Route path="Links" element={<WebsiteLinks />} />
             <Route path="Trello" element={<Trello />} />
             <Route path="*" element={<NoPage />} />
           </Route>
